@@ -29,8 +29,7 @@ Each iteration chooses 1 of 4 functions based on it's probability factor *(in th
 By slightly changing the function parameters, we can create different variations of fern.
 <br><br>
 ![image](https://user-images.githubusercontent.com/84562594/161369303-30ae6642-fc4d-4dbc-bef0-ecf0b99b0619.png)
-<br><br>
-`Click to change the fern pattern`
+<br>
 
 # References
 * https://en.wikipedia.org/wiki/Barnsley_fern
