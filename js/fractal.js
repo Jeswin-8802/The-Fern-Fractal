@@ -50,16 +50,12 @@ window.onload = function() {
         
         for (let i = 0; i < iterations; i++) {
             let t =  Math.floor(Math.random() * 100 + 1) / 100
-            //for the probability 0.01
             if (t == cumulative_probability[0])
                 a = f1(a)
-            //for the probability 0.85
             else if (t > cumulative_probability[0] && t <= cumulative_probability[1])
                 a = f2(a)
-            //for the probability 0.07
             else if (t > cumulative_probability[1] && t <= cumulative_probability[2])
                 a = f3(a)
-            //for the probability 0.07
             else
                 a = f4(a)
             
