@@ -15,7 +15,7 @@ window.onload = function() {
 
     var imagedata = context.createImageData(width, height)
 
-    var iterations = 125
+    var iterations = 10
 
     const probability_factors = [0.01, 0.85, 0.07, 0.07]
     var t1 = 0.2, t2 = 0.04
@@ -70,6 +70,9 @@ window.onload = function() {
             imagedata.data[pixelindex + 2] = pixelindex % 200
             imagedata.data[pixelindex + 3] = 255
         }
+        
+        if (iterations < 500)
+            iterations = iterations * 1.05
     }
 
     function onMouseDown(e) {
