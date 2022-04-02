@@ -15,7 +15,7 @@ window.onload = function() {
 
     var imagedata = context.createImageData(width, height)
 
-    var iterations = 10
+    var iterations = 75
 
     const probability_factors = [0.01, 0.85, 0.07, 0.07]
     var t1 = 0.2, t2 = 0.04
@@ -67,7 +67,7 @@ window.onload = function() {
             imagedata.data[pixelindex + 3] = 255
         }
         
-        if (iterations < 500)
+        if (iterations < 5000)
             iterations = iterations * 1.05
     }
 
@@ -75,6 +75,7 @@ window.onload = function() {
         imagedata.data.fill(0)
         t1 = -Math.random() * 0.1 + 0.2
         t2 = -Math.random() * 0.06 + 0.04
+        iterations = 75
         generateImage()
     }
 
