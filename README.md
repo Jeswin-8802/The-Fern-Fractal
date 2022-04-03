@@ -24,7 +24,7 @@ Here `p` is the `probability factor` and it determines the probability of choosi
 ![40699077f271fd7f45d3e26c536b1d4b1a9c50dd](https://user-images.githubusercontent.com/84562594/161368524-43188052-df24-4359-b57b-f868892a1dab.svg)
 
 <br><br>
-Each iteration chooses 1 of 4 functions based on it's probability factor *(in the first iteration, `(0, 0)` is used as the initial input)*. The co-ordinates obtained are traced in the output and is used as input for the next iteration. Mare the number of iterations, the more defined the fern looks as the number of points plotted increases.
+Each iteration chooses 1 of 4 functions based on it's probability factor *(in the first iteration, `(0, 0)` is used as the initial input)*. The co-ordinates obtained are traced in the output and is used as input for the next iteration. More the number of iterations, the more defined the fern looks as the number of points plotted increases.
 <br><br>
 By slightly changing the function parameters, we can create different variations of fern.
 <br><br>
